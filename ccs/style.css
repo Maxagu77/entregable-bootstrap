@@ -1,0 +1,45 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+/* agregue un important para usar color mejor */
+body {
+    background-color: rgb(228, 198, 135) !important;   
+} 
+
+header a.inicio {
+    margin: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+header h1.titulo {
+    margin-top: 100px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+#nosotros {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 80px;
+}
+
+footer p {
+    display: block;
+    text-align: center;
+    height: 20px;
+    color: white;
+}
+
+footer div img.iconos {
+    margin-left: 47%;
+    width: 100px;
+    height: auto;
+}
+
+
